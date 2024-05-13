@@ -1,0 +1,164 @@
+body{
+    background: #EFEFF2;
+    margin: 0 auto;
+    padding: 0;
+    font: 400 18px/28px Inter, sans-serif;
+    color: #19191C;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    padding: 36px 0 0;
+    justify-content: space-between;
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.link{
+    color: #19191C;
+    text-decoration: none;
+
+}
+.btn-box{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.header__link{
+    color: #19191C;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.header__btn{
+    background-color: #19191C;
+    color: #EFEFF2;
+    text-decoration: none;
+    padding: 12px 37px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+    align-items: center;
+}
+.information__card{
+    display: flex;
+}
+.price__list{
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    background: #19191C;
+    display: grid;
+    gap: 100px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.logoftr {
+    color: #FBFBFC;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logoftr {
+    margin: 59px 0 48px;
+}
+
+.contactmaltel {
+    display: grid;
+    gap: 28px;
+}
+
+.maltel {
+    color: #FBFBFC;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-logo {
+    color: #FBFBFC;
+}
+
+.container-footer{
+    display: grid;
+}
+
+.footer-title {
+    color: #FBFBFC;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 28px;
+}
+
+.footer-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 12px;
+    display: grid;
+}
+
+.footer-nav-link {
+    color: #EFEFF2;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.footer_nav {
+    margin-top: 68px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6D6D77;
+    gap: 28px;
+    margin-bottom: 62px;
+}
+
+.crightlink {
+    color: #6D6D77;
+    margin: 0px;
+}
